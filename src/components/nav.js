@@ -34,11 +34,9 @@ export default function Nav() {
         <ul className='w-full h-full flex flex-col text-center justify-center'>
           {navLinks.map((link, index) => {
             return (
-              <li className='' key={index}>
+              <li className='p-2 uppercase tracking-wide block' key={index}>
                 <ActiveLink href={link.path} clickCallback={onNavClick}>
-                  <a className='text-white p-2 uppercase tracking-wide block '>
-                    {link.name}
-                  </a>
+                  {link.name}
                 </ActiveLink>
               </li>
             );

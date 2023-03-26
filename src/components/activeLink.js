@@ -10,7 +10,7 @@ function ActiveLink({ children, href, clickCallback }) {
   };
 
   return (
-    <a href={href} onClick={handleClick}>
+    <a href={href} className='text-white' onClick={handleClick}>
       {children}
     </a>
   );
