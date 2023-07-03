@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <div className='mt-6 mb-12'>
         <p className='text-xl md:text-3xl max-w-xl text-center md:leading-10'>
-          A Victorian-style neighborhood in Charlotte, North Carolina.
-          Originally constructed in 1982, and consists of 30 homes.
+          A small Victorian-style neighborhood in Charlotte, North Carolina. It
+          was originally founded in 1983.
         </p>
       </div>
       <div className='flex justify-center mb-8'>

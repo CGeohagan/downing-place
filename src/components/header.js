@@ -8,7 +8,7 @@ export default function Header() {
     <header className='flex flex-row w-full align-center justify-between px-6 py-6 bg-lightgreen '>
       <Link href='/' className='text-2xl font-medium'>
         <Image
-          src='/DPlogo.png'
+          src='/images/DPlogo.png'
           alt='Downing Place logo'
           width='120'
           height='99'

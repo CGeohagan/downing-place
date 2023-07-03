@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         <title>Downing Place</title>
       </Head>
       <Header />
-      <main className='flex flex-col items-center justify-center w-full min-h-screen py-8 md:py-12 px-6'>
+      <main className='flex flex-col items-center justify-center w-full py-8 md:py-12 px-6'>
         {children}
       </main>
       <Footer />

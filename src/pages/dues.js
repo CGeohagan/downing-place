@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import PageLayout from '@/components/pageLayout';
 
 export default function Dues() {
@@ -16,22 +15,12 @@ export default function Dues() {
           <div className='flex justify-center items-center my-8'>
             <div className='mx-3'>
               <a href='' target='_blank'>
-                <Image
-                  src='/paypal.png'
-                  width='130'
-                  height='40'
-                  alt='paypal logo'
-                />
+                <p className='font-bold uppercase border-bottom-rose'>Paypal</p>
               </a>
             </div>
             <div className='mx-3'>
               <a href='' target='_blank'>
-                <Image
-                  src='/venmo.png'
-                  width='130'
-                  height='40'
-                  alt='venmo logo'
-                />
+                <p className='font-bold uppercase border-bottom-rose'>Venmo</p>
               </a>
             </div>
           </div>
@@ -44,9 +33,7 @@ export default function Dues() {
             <li>
               After the 12 month period, if the resident has not paid, the board
               will issue a $25 late fee plus 12% interest per year as is
-              specified in the current CCRs. In addition to the fee, if a
-              resident has not paid at the year mark, they are not permitted to
-              be on any committees or on the board until payment is received.
+              specified in the current CCRs.
             </li>
             <li>
               After 2 years if the resident has not paid, they will get notice

@@ -33,6 +33,10 @@ body {
   background-color: var(--light-green);
 }
 
+main {
+  min-height: calc(100vh - 200px);
+}
+
 font-serif {
   font-family: var(--font-serif);
 }
