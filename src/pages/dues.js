@@ -10,18 +10,26 @@ export default function Dues() {
         <div>
           <p className='text-xl'>
             Neighborhood dues are due once a year on X Date. The total owed is
-            $350. Please pay by check or online at any of the following links:
+            $350. Please pay by check or online at either of the following
+            links. If paying online please add the corresponding transaction
+            feeds specified below to the total:
           </p>
           <div className='flex justify-center items-center my-8'>
             <div className='mx-3'>
               <a href='' target='_blank'>
-                <p className='font-bold uppercase border-bottom-rose'>Paypal</p>
+                <p className='font-bold uppercase border-bottom-rose text-center'>
+                  Paypal
+                </p>
               </a>
+              <span className='text-sm'>Add transaction fee of $10.96</span>
             </div>
             <div className='mx-3'>
               <a href='' target='_blank'>
-                <p className='font-bold uppercase border-bottom-rose'>Venmo</p>
+                <p className='font-bold uppercase border-bottom-rose text-center'>
+                  Venmo
+                </p>
               </a>
+              <span className='text-sm'>Add transaction fee of $6.75</span>
             </div>
           </div>
         </div>

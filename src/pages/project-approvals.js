@@ -11,15 +11,23 @@ export default function ProjectApprovals() {
       <div className='max-w-lg mx-auto'>
         <div className='mt-10'>
           <p className='text-lg'>
-            As specified in the CCRs, any new structures or external home
-            improvements must be approved by the board.
+            As specified in the{' '}
+            <a
+              href='https://docs.google.com/document/d/0BzkLu4nW1R1GOGE2ZDc5NGUtYjY3Yy00M2Q1LThhNmMtNjlkMDY0MDFmZTI1/edit?usp=sharing&ouid=110813070632959976197&resourcekey=0-kpsT6EgUas6lqyXXCnbo2w&rtpof=true&sd=true'
+              target='_blank'
+              className='border-bottom-rose'
+            >
+              CCRs
+            </a>
+            , any new structures or external home improvements must be approved
+            by the board.
           </p>
           <p className='text-lg mt-4'>
             The process for project approvals is to send a description of the
             project and all available information about the project (plans,
             etc.) to the Downing Place{' '}
             <a
-              class='border-bottom-rose'
+              className='border-bottom-rose'
               href='mailto:downingplacehoa@gmail.com'
             >
               email address
