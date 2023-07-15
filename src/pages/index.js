@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <div className='mt-6 mb-12'>
         <p className='text-xl md:text-3xl max-w-xl text-center md:leading-10'>
-          A small Victorian-style neighborhood in Charlotte, North Carolina. It
-          was originally founded in 1983.
+          Downing Place is a small Victorian-style neighborhood in Charlotte,
+          North Carolina, originally founded in 1983.
         </p>
       </div>
       <div className='flex justify-center mb-8'>

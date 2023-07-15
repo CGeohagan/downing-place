@@ -9,15 +9,15 @@ export default function Dues() {
       <div className='max-w-lg mx-auto'>
         <div>
           <p className='text-xl'>
-            Neighborhood dues are due once a year on X Date. The total owed is
-            $350. Please pay by check or online at either of the following
-            links. If paying online please add the corresponding transaction
-            feeds specified below to the total:
+            Neighborhood dues for 2023 are due on X Date. The total owed is
+            $350. Please pay by check to Doug Mays or online at either of the
+            following links. If paying online please add the corresponding
+            transaction feeds specified below to the total:
           </p>
           <div className='flex justify-center items-center my-8'>
             <div className='mx-3'>
               <a href='' target='_blank'>
-                <p className='font-bold uppercase border-bottom-rose text-center'>
+                <p className='font-bold uppercase bg-darkgreen hover:bg-rose transition-colors text-center text-white p-3'>
                   Paypal
                 </p>
               </a>
@@ -25,7 +25,7 @@ export default function Dues() {
             </div>
             <div className='mx-3'>
               <a href='' target='_blank'>
-                <p className='font-bold uppercase border-bottom-rose text-center'>
+                <p className='font-bold uppercase bg-darkgreen hover:bg-rose transition-colors text-center text-white p-3'>
                   Venmo
                 </p>
               </a>
