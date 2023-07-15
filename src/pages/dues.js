@@ -12,7 +12,7 @@ export default function Dues() {
             Neighborhood dues for 2023 are due on X Date. The total owed is
             $350. Please pay by check to Doug Mays or online at either of the
             following links. If paying online please add the corresponding
-            transaction feeds specified below to the total:
+            transaction fees specified below to the total:
           </p>
           <div className='flex justify-center items-center my-8'>
             <div className='mx-3'>
