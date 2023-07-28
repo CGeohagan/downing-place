@@ -12,7 +12,9 @@ export default function Dues() {
             Neighborhood dues for 2023 are due on X Date. The total owed is
             $350. Please pay by check to Doug Mays or online at either of the
             following links. If paying online please add the corresponding
-            transaction fees specified below to the total:
+            transaction fees specified below to the total. Venmo has a
+            transaction fee of 1.9% + $0.10. PayPal has a transaction fee of
+            2.99% + $0.49:
           </p>
           <div className='flex justify-center items-center my-8'>
             <div className='mx-3'>

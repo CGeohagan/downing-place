@@ -19,8 +19,8 @@ export default function ProjectApprovals() {
             >
               CCRs
             </a>
-            , any new structures or external home improvements must be approved
-            by the board.
+            , any new structures or significant external home improvements must
+            be approved by the board.
           </p>
           <p className='text-lg mt-4'>
             The process for project approvals is to send a description of the
