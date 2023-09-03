@@ -9,31 +9,18 @@ export default function Dues() {
       <div className='max-w-lg mx-auto'>
         <div>
           <p className='text-xl'>
-            Neighborhood dues for 2023 are due on X Date. The total owed is
-            $350. Please pay by check to Doug Mays or online at either of the
-            following links. If paying online please add the corresponding
-            transaction fees specified below to the total. Venmo has a
-            transaction fee of 1.9% + $0.10. PayPal has a transaction fee of
-            2.99% + $0.49:
+            Neighborhood dues for 2023 were due on July 28. If you have not paid
+            yet, please pay as soon as possible. The total owed is $350. Please
+            pay by check to Doug Mays (see{' '}
+            <a
+              target='_blank'
+              href='/files/dp-directory-protected.pdf'
+              className='border-bottom-rose'
+            >
+              Downing Place Directory
+            </a>{' '}
+            for address).
           </p>
-          <div className='flex justify-center items-center my-8'>
-            <div className='mx-3'>
-              <a href='' target='_blank'>
-                <p className='font-bold uppercase bg-darkgreen hover:bg-rose transition-colors text-center text-white p-3'>
-                  Paypal
-                </p>
-              </a>
-              <span className='text-sm'>Add transaction fee of $10.96</span>
-            </div>
-            <div className='mx-3'>
-              <a href='' target='_blank'>
-                <p className='font-bold uppercase bg-darkgreen hover:bg-rose transition-colors text-center text-white p-3'>
-                  Venmo
-                </p>
-              </a>
-              <span className='text-sm'>Add transaction fee of $6.75</span>
-            </div>
-          </div>
         </div>
 
         <div className='mt-2'>
